@@ -1,0 +1,194 @@
+/*Google Fonts for Webpage */
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+/* Header Styles */
+header {
+  background-color: black;
+  color: white;
+}
+header h1 {
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 2px;
+  text-align: center;
+  font-weight: lighter;
+  padding: 0;
+  margin: 0;
+}
+header h2 {
+  text-align: center;
+  margin: 5px 0 5px 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+}
+header nav {
+  display: flex;
+  justify-content: center;
+}
+header nav ul {
+  display: flex;
+  margin: 5px;
+  padding: 0;
+}
+header nav ul li {
+  color: white;
+  margin: 0 5px 0 5px;
+  list-style: none;
+}
+header nav ul li a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  color: white;
+}
+/*Image Styles */
+img {
+  margin-top: 40px;
+}
+.centerimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+/* Body Styles */
+section {
+  width: 100%;
+  margin: 50px;
+}
+article {
+  margin-bottom: 50px;
+}
+.divformat {
+  width: 50%;
+  margin: 0px auto;
+}
+h3 {
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 1px;
+  font-weight: bolder;
+}
+
+h4 {
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  font-weight: lighter;
+}
+h5 {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  margin: 5px;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+}
+ol,
+ul {
+  font-family: "Roboto", sans-serif;
+}
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 1px;
+  margin: 0;
+}
+hr {
+  background: black;
+  height: 4px;
+  width: 50%;
+  border: none;
+  margin: auto;
+  border-radius: 10px;
+}
+/*Form Styles*/
+label {
+  display: block;
+  padding: 5px 0;
+  font-size: 14px;
+}
+form input,
+form textarea {
+  display: block;
+  width: 83%;
+}
+form textarea {
+  height: 50px;
+}
+#submitbtn {
+  background-color: black;
+  color: white;
+  width: auto;
+  text-transform: uppercase;
+  border: 0;
+  padding: 6px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+/*Contact Icon Styles */
+.horizontal {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+}
+section ul li {
+  margin: 10px 15px;
+}
+.nobullets {
+  list-style: none;
+}
+section ul li a {
+  text-decoration: none;
+}
+#linkedinicon {
+  width: 100%;
+  margin: 0;
+}
+#githubicon {
+  width: 100%;
+  margin: 0;
+}
+#emailicon {
+  width: 100%;
+  border: 0;
+  margin: 0;
+}
+#phoneicon {
+  width: 100%;
+  border: 0;
+  margin: 0;
+}
+/* Link Styles*/
+a {
+  text-decoration: none;
+}
+a:link {
+  color: #f0803c;
+}
+a:visited {
+  color: #ff5714;
+}
+a:hover {
+  color: #697a21;
+}
+a:active {
+  color: #931f1d;
+}
+/*Different Display Styles */
+@media screen and (min-width: 700px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .headerdiv {
+    padding: 0 10px;
+  }
+  nav {
+    padding-top: 60px;
+  }
+}
